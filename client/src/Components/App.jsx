@@ -6,7 +6,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import { browserHistory } from 'react-router';
-import HomePage from './HomePage';
+/*import HomePage from './HomePage';*/
 import NavBar from './HeaderComponents/NavBar';
 import Footer from './FooterComponents/Footer';
 
