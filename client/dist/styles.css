@@ -36,6 +36,11 @@ header {
   display: inline;
 }
 
+.LogoButton {
+  width: 50px;
+  float: left;
+}
+
 .navButton {
   top: 0;
   display: inline;
