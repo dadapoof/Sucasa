@@ -17,19 +17,6 @@ class App extends Component {
       <Router>
         <div>
           <NavBar />
-	        <ul>
-	          <li>
-	            <Link to="/">HomePage</Link>
-	          </li>
-	          <li>
-	            <Link to="/HeaderComponents/NavBar.jsx">NavBar</Link>
-	          </li>
-	          <li>
-	            <Link to="/FooterComponents/Footer.jsx">Footer</Link>
-	          </li>
-	        </ul>
-
-	        <hr />
 
 
           <Route name="home" exact path="/" component={HomePage} />
