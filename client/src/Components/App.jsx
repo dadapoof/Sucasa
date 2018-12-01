@@ -15,17 +15,17 @@ class App extends Component {
   render() {
     return (
       <Router>
-{/*        <div>
+{        <div>
           <NavBar />
 	        <ul>
 	          <li>
-	            <Link to="/">HomePage</Link>
+	            <Link to="/"></Link>
 	          </li>
 	          <li>
-	            <Link to="/HeaderComponents/NavBar.jsx">NavBar</Link>
+	            <Link to="/HeaderComponents/NavBar.jsx"></Link>
 	          </li>
 	          <li>
-	            <Link to="/FooterComponents/Footer.jsx">Footer</Link>
+	            <Link to="/FooterComponents/Footer.jsx"></Link>
 	          </li>
 	        </ul>
 
@@ -35,7 +35,7 @@ class App extends Component {
           <Route name="home" exact path="/" component={HomePage} />
           <Route name="nav" exact path="/HeaderComponents/NavBar.jsx" component={NavBar} />
           <Route name="footer" exact path="/FooterComponents/Footer.jsx" component={Footer} />
-        </div>*/}
+        </div>}
       </Router>
     );
   }
