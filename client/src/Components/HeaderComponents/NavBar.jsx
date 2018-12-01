@@ -9,6 +9,7 @@ import { Link } from 'react-router-dom';
 class NavBar extends Component {
   render() {
     return (
+    <div>
       <header>
         <ul id="headerButtons">
           <li className="navButton"><Link to="">Home</Link></li>
@@ -18,6 +19,7 @@ class NavBar extends Component {
       <div>
         <h1>Hello World</h1>
       </div>
+    </div>
     );
   }
 }
