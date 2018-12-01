@@ -24,7 +24,6 @@ header {
   list-style-type: none;
   padding: 0;
   position: fixed;
-  top: 0;
   width: 100%;
   display: inline;
 }
@@ -35,8 +34,7 @@ header {
 
 .LogoButton {
   font-size: 30px;
-/*  float: left;
-*/}
+}
 
 .subnav_link:hover {
   background-color: white;
