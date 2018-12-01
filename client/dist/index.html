@@ -13,7 +13,7 @@
     	<script type="text/javascript" src="bundle.js"></script>
 	    <script>
 			$(window).scroll(function() {
-				$('#animatedElement').each(function(){
+				$('#left-animation').each(function(){
 				var imagePos = $(this).offset().top;
 
 				var topOfWindow = $(window).scrollTop();
@@ -24,7 +24,7 @@
 			});
 		</script>
 		<script>
-			$('#animatedElement').click(function() {
+			$('#left-animation').click(function() {
 				$(this).addClass("slideLeft");
 			});
 		</script>

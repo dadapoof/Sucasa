@@ -23,8 +23,7 @@ class NavBar extends Component {
         </ul>
        </div>
       </header>
-      <h1 class="centered-text-image">SuCasa</h1>
-      <h2 class="centered-text-image">2 Bedroom Flat in Hamilton Heights</h2>
+      <h1 class="centered-text-image">SuCasa<br />2 Bedroom Flat in Hamilton Heights</h1>
 	      <div id="left-animation" class="slideLeft">
 	     	<h2>"Very classy apartment. Hosts are delightful!"</h2>
 		</div>
