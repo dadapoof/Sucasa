@@ -23,7 +23,8 @@ header {
 #headerButtons {
   list-style-type: none;
   padding: 0;
-  float: right;  
+  float: right;
+  position: fixed;
 }
 
 .LogoButton {
