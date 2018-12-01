@@ -68,6 +68,10 @@ header {
     }
 }
 
+.container {
+  padding-top: 500px;
+}
+
 #nav-bar-image {
   width: 100%;
   max-width: 100%;
