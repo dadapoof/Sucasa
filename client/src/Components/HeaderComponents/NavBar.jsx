@@ -24,7 +24,8 @@ class NavBar extends Component {
        </div>
        	<h2 id="left-animation" class="slideLeft">"Very classy apartment.<br />Hosts are delightful!"</h2>
       </header>
-      <h1 class="centered-text-image">SuCasa<br />2 Bedroom Flat in Hamilton Heights</h1>
+      <h1 class="centered-text-image">SuCasa</h1>
+      <h2 class="centered-text-iamge-2">2 Bedroom Flat in Hamilton Heights</h2>
     </div>
     );
   }
