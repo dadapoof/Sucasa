@@ -9,10 +9,6 @@ import { browserHistory } from 'react-router';
 import HomePage from './HomePage';
 import NavBar from './HeaderComponents/NavBar';
 import Footer from './FooterComponents/Footer';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-
-// AOS.init();
 
 class App extends Component {
   render() {

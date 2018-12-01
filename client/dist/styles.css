@@ -52,10 +52,9 @@ header {
   font-size: 20px;
 }
 
-&--primary {
-  @include center-v;
-  right: 20px;
+#left-animation {
   background-color: rgba(0, 0, 0, 0.6);
+  visibility: hidden;
 }
 
 .navButton {
