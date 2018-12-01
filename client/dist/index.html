@@ -14,19 +14,22 @@
 	    <script>
 			$(window).scroll(function() {
 				$('#left-animation').each(function(){
-				var imagePos = $(this).offset().top;
-
-				var topOfWindow = $(window).scrollTop();
-					if (imagePos < topOfWindow+400) {
-						$(this).addClass("slideLeft");
-					}
+					var imagePos = $(this).offset().top;
+	        		var imageHeight = $(this).height();
+					var topOfWindow = $(window).scrollTop();
+			        if (imagePos < topOfWindow + imageHeight && imagePos + imageHeight > topOfWindow) {
+			            $(this).addClass("slideLeft");
+			        } else {
+			            $(this).removeClass("slideLeft");
+			        }
 				});
 			});
+
 		</script>
-		<script>
+<!-- 		<script>
 			$('#left-animation').click(function() {
 				$(this).addClass("slideLeft");
 			});
-		</script>
+		</script> -->
   </body>
 </html>
