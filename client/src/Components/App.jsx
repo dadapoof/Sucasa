@@ -18,7 +18,10 @@ class App extends Component {
           <Route name="home" exact path="/" component={HomePage} />
         </div>
       </Router>
-    )
+    );
+
+    const elem = <h1>Hello World</h1>;
+    const el = <h2>This is Sucasa</h2>;
   }
 }
 export default App;
