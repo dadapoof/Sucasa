@@ -8,9 +8,10 @@ import React, { Component } from 'react';
 class HomePage extends Component {
   render() {
     return (
+   	  <div class="container">
       <div class="details">
         <h1>What to expect:</h1>
-        
+
       </div>
       <div class="amenities">
       	<h1>Amenities</h1>
@@ -20,6 +21,7 @@ class HomePage extends Component {
       </div>
       <div class="photo-gallery">
       	<h1>Gallery</h1>
+      </div>
       </div>
     )
   }
