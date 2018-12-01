@@ -30,7 +30,7 @@ header {
 
 .test {
   float: right;
-  width: 180px;
+  width: 100%;
 }
 
 .LogoButton {
