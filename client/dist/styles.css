@@ -57,7 +57,7 @@ header {
   color: white;
   visibility: hidden;
   top: 400px;
-  left: 600px;
+  margin-left: 600px;
   font-size: 30px;
 }
 
