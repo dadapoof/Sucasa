@@ -36,6 +36,11 @@ header {
   left: 0;
 }
 
+.subnav_link:hover {
+  background-color: white;
+  color: rgba(0, 0, 0, 0.5);
+}
+
 .navButton {
   display: inline;
   background-color: rgba(0, 0, 0, 0.5);
@@ -48,11 +53,6 @@ header {
   width: 50px;
   margin-top: 0;
 }
-
-.navButton {
-  display: block;
-}
-
 
 .centered-text-image {
     position: absolute;
