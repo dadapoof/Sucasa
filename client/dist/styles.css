@@ -24,13 +24,12 @@ header {
   list-style-type: none;
   padding: 0;
   position: fixed;
-  width: 100%;
   display: inline;
 }
 
 .test {
   float: right;
-  width: 890px;
+  width: 895px;
   top: 0;
   margin: 0;
   display: inline;
