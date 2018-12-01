@@ -14,7 +14,7 @@ class NavBar extends Component {
         <ul id="headerButtons">
           <li className="navButton"><Link to="">Home</Link></li>
         </ul>
-        <img src={require('./apartment.jpg')} />
+        <img id="nav-bar-image"src={require('./apartment.jpg')} />
       </header>
     </div>
     );
