@@ -23,17 +23,16 @@ header {
 #headerButtons {
   list-style-type: none;
   padding: 0;
-/*  float: right;
-*/  position: fixed;
+  float: right;
+  position: absolute;
   top: 0;
-  right: 0;
   width: 100%;
   display: inline;
 }
 
 .LogoButton {
   font-size: 30px;
-  left: 0;
+  float: left;
 }
 
 .subnav_link:hover {
