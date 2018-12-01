@@ -24,13 +24,13 @@ header {
   list-style-type: none;
   padding: 0;
   position: fixed;
-  font-size: 25px;
+  font-size: 20px;
   background-color: rgba(0, 0, 0, 0.6);
   color: white;
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 13px 15px;
+  padding: 13px 25px;
   display: inline;
 }
 
@@ -44,7 +44,7 @@ header {
 
 .LogoButton {
   width: 50px;
-  margin-right: 40px;
+  margin-right: 50px;
   left: 0;
   padding: 13px 15px;
   display: inline;
