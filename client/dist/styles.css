@@ -30,17 +30,17 @@ header {
 
 .test {
   float: right;
-  width: 500px;
+  width: 1000px;
 }
 
 .LogoButton {
   font-size: 30px;
 }
 
-.subnav_link:hover {
+/*.subnav_link:hover {
   background-color: white;
   color: rgba(0, 0, 0, 0.5);
-}
+}*/
 
 .navButton {
   display: inline;
@@ -53,6 +53,11 @@ header {
   font-size: 25px;
   width: 50px;
   margin-top: 0;
+}
+
+.navButton:hover {
+  background-color: white;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .centered-text-image {
