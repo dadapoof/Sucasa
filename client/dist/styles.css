@@ -28,7 +28,7 @@ header {
 
 .navButton {
   float: right;
-  display: block;
+  display: inline;
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
   border: none;
@@ -39,6 +39,10 @@ header {
   width: 50px;
   margin-left: 0;
   margin-top: 0;
+}
+
+.navButton Link {
+  display: block;
 }
 
 .centered-text-image {
@@ -52,7 +56,6 @@ header {
     -moz-animation: fadein 3s; /* Firefox */
     -webkit-animation: fadein 3s; /* Safari and Chrome */
     -o-animation: fadein 3s; /* Opera */
-    animation: type 4s steps(60, end);
 }
 
 @keyframes fadein {
