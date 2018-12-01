@@ -31,6 +31,7 @@ header {
   outline: none;
   cursor: pointer;
   padding: 13px 15px;
+  display: inline;
 }
 
 .test {
