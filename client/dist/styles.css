@@ -24,7 +24,6 @@ header {
   list-style-type: none;
   padding: 0;
   position: fixed;
-  display: inline;
   font-size: 25px;
   background-color: rgba(0, 0, 0, 0.6);
   color: white;
@@ -32,7 +31,6 @@ header {
   outline: none;
   cursor: pointer;
   padding: 13px 15px;
-  width: 50px;
 }
 
 .test {
@@ -47,12 +45,15 @@ header {
   width: 50px;
   margin: 0px;
   left: 0;
+  padding: 13px 15px;
 }
 
 .navButton {
   top: 0;
   display: inline;
   margin-top: 0;
+  width: 50px;
+  padding: 13px 15px;
 }
 
 .navButton:hover {
