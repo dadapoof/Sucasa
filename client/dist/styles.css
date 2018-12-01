@@ -49,9 +49,10 @@ header {
   margin-top: 0;
 }
 
-.navButton Link::active {
+.navButton {
   display: block;
 }
+
 
 .centered-text-image {
     position: absolute;
