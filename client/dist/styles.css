@@ -23,11 +23,15 @@ header {
 #headerButtons {
   list-style-type: none;
   padding: 0;
-  float: right;
-  position: absolute;
+  overflow: hidden;
+  position: fixed;
   top: 0;
   width: 100%;
   display: inline;
+}
+
+.test {
+  float: right;
 }
 
 .LogoButton {
