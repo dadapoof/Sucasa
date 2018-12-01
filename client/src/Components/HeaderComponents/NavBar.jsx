@@ -17,13 +17,14 @@ class NavBar extends Component {
           <li className="navButton"><Link to="" style={{ textDecoration: 'none', color: 'white' }} className="subnav_link">Home</Link></li>
           <li className="navButton"><Link to="" style={{ textDecoration: 'none', color: 'white' }} className="subnav_link">What to Expect</Link></li>
           <li className="navButton"><Link to="" style={{ textDecoration: 'none', color: 'white' }} className="subnav_link">Amenities</Link></li>
-          <li className="navButton"><Link to="" style={{ textDecoration: 'none', color: 'white' }} className="subnav_link">Around the area</Link></li>
+          <li className="navButton"><Link to="" style={{ textDecoration: 'none', color: 'white' }} className="subnav_link">Around the Area</Link></li>
           <li className="navButton"><Link to="" style={{ textDecoration: 'none', color: 'white' }} className="subnav_link">Gallery</Link></li>
           <li className="navButton"><Link to="" style={{ textDecoration: 'none', color: 'white' }} className="subnav_link">Contact</Link></li>
         </ul>
        </div>
       </header>
       <h1 class="centered-text-image">SuCasa</h1>
+      <h2 class="centered-text-image">2 Bedroom Flat in Hamilton Heights</h2>
     </div>
     );
   }

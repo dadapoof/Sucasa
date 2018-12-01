@@ -10,14 +10,14 @@ class HomePage extends Component {
     return (
    	  <div class="container">
       <div class="details">
-        <h1>What to expect:</h1>
-
+        <h1>What to Expect</h1>
+        
       </div>
       <div class="amenities">
       	<h1>Amenities</h1>
       </div>
       <div class="map">
-      	<h1>What's around the area?</h1>
+      	<h1>What's Around the Area?</h1>
       </div>
       <div class="photo-gallery">
       	<h1>Gallery</h1>
