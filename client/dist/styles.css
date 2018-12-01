@@ -6,11 +6,27 @@ body {
 header {
   display: block;
   background-color: white;
+  background-image: url("apartment.jpg");
   width: 100%;
   height: 50px;
   color: white;
   margin: 0;
 }
+
+/*img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0;
+  opacity: 0.8;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}*/
 
 #headerButtons {
   list-style-type: none;
