@@ -9,6 +9,16 @@ import { browserHistory } from 'react-router';
 import HomePage from './HomePage';
 import NavBar from './HeaderComponents/NavBar';
 import Footer from './FooterComponents/Footer';
+
+
+const HomePage = () => (
+	<div>
+		<h1>Hello World!</h1>
+	</div>
+
+);
+
+
 class App extends Component {
   render() {
     return (
@@ -35,7 +45,7 @@ class App extends Component {
           <Route name="footer" exact path="/FooterComponents/Footer.jsx" component={Footer} />
         </div>
       </Router>
-    )
+    );
   }
 }
 export default App;
