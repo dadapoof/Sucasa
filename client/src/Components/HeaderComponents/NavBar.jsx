@@ -12,9 +12,15 @@ class NavBar extends Component {
     <div>
       <header>
         <ul id="headerButtons">
+          <li className="LogoButton"><Link to="">SC</Link></li>
           <li className="navButton"><Link to="">Home</Link></li>
+          <li className="navButton"><Link to="">What to Expect</Link></li>
+          <li className="navButton"><Link to="">Amenities</Link></li>
+          <li className="navButton"><Link to="">Around the area</Link></li>
+          <li className="navButton"><Link to="">Gallery</Link></li>
+          <li className="navButton"><Link to="">Contact</Link></li>
         </ul>
-}      </header>
+      </header>
       <h1 class="centered-text-image">SuCasa</h1>
     </div>
     );
