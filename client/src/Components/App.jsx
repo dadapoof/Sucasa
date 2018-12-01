@@ -19,13 +19,13 @@ class App extends Component {
           <NavBar />
 	        <ul>
 	          <li>
-	            <Link to="/"></Link>
+	            <Link to="/">HomePage</Link>
 	          </li>
 	          <li>
-	            <Link to="/HeaderComponents/NavBar.jsx"></Link>
+	            <Link to="/HeaderComponents/NavBar.jsx">NavBar</Link>
 	          </li>
 	          <li>
-	            <Link to="/FooterComponents/Footer.jsx"></Link>
+	            <Link to="/FooterComponents/Footer.jsx">Footer</Link>
 	          </li>
 	        </ul>
 
