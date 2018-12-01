@@ -56,10 +56,9 @@ header {
   background-color: rgba(0, 0, 0, 0.4);
   color: white;
   visibility: hidden;
-  top: 70%;
-  left: 70%;
+  top: 400px;
+  left: 600px;
   font-size: 30px;
-  text-align: left;
 }
 
 .navButton {
