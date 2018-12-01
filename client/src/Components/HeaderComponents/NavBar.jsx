@@ -14,10 +14,9 @@ class NavBar extends Component {
           <li className="navButton"><Link to="">Home</Link></li>
         </ul>
       </header>
-    );
-
-    const elem = <h1>Hello World</h1>;
-    const el = <h2>This is Sucasa</h2>;
+        const elem = <h1>Hello World</h1>;
+    	const el = <h2>This is Sucasa</h2>;
+    )
   }
 }
 export default NavBar;

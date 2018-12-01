@@ -20,10 +20,7 @@ class App extends Component {
           <Route name="footer" exact path="/FooterComponents/Footer.jsx" component={Footer} />
         </div>
       </Router>
-    );
-
-    const elem = <h1>Hello World</h1>;
-    const el = <h2>This is Sucasa</h2>;
+    )
   }
 }
 export default App;
