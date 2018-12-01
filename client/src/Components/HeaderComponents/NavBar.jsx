@@ -16,6 +16,7 @@ class NavBar extends Component {
         </ul>
         <img id="nav-bar-image" src={require('./apartment.jpg')} />
       </header>
+      <h1 class="centered-text-image">SuCasa</h1>
     </div>
     );
   }
