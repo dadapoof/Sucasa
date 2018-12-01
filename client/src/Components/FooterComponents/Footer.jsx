@@ -10,7 +10,9 @@ class Footer extends Component {
     return (
       <footer>
         <div>
-          Footer component
+          <h1>Contact Information</h1>
+          <h2>Laurent Massart - (646)-262-9473 - lmassart(at)aol(dot)com</h2>
+          <h2>Caroline Massart - (646)-262-9471 - cheimo(at)aol(dot)com</h2>
         </div>
       </footer>
     )
