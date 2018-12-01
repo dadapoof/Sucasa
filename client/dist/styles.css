@@ -28,6 +28,7 @@ header {
 
 .navButton {
   float: right;
+  display: block;
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
   border: none;
@@ -51,6 +52,7 @@ header {
     -moz-animation: fadein 3s; /* Firefox */
     -webkit-animation: fadein 3s; /* Safari and Chrome */
     -o-animation: fadein 3s; /* Opera */
+    animation: type 4s steps(60, end);
 }
 
 @keyframes fadein {
