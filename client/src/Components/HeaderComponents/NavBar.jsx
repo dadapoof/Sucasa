@@ -14,6 +14,7 @@ class NavBar extends Component {
           <li className="navButton"><Link to="">Home</Link></li>
         </ul>
       </header>
+      <h1>Hello World</h1>
     )
   }
 }
