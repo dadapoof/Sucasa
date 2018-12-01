@@ -23,8 +23,8 @@ header {
 #headerButtons {
   list-style-type: none;
   padding: 0;
-  float: right;
-  position: fixed;
+/*  float: right;
+*/  position: fixed;
   top: 0;
   right: 0;
   width: 100%;
@@ -33,6 +33,7 @@ header {
 
 .LogoButton {
   font-size: 30px;
+  left: 0;
 }
 
 .navButton {
