@@ -15,7 +15,7 @@ class NavBar extends Component {
         </ul>
       </header>
       <h1>Hello World</h1>
-    )
+    );
   }
 }
 export default NavBar;
