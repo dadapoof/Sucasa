@@ -41,8 +41,8 @@ header {
 
 .navButton {
   top: 0;
-/*  display: inline;
-*/  background-color: rgba(0, 0, 0, 0.5);
+  display: inline;
+  background-color: rgba(0, 0, 0, 0.6);
   color: white;
   border: none;
   outline: none;
@@ -54,8 +54,12 @@ header {
 }
 
 .navButton:hover {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.6);
   background-color: white;
+}
+
+.subnav_link:hover {
+    color: rgba(0, 0, 0, 0.6);
 }
 
 .centered-text-image {
