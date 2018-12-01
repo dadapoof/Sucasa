@@ -23,7 +23,12 @@ header {
 #headerButtons {
   list-style-type: none;
   padding: 0;
-  margin-left: 200px;
+  float: right;  
+}
+
+.LogoButton {
+  float: left;
+  font-size: 30px;
 }
 
 .navButton {
