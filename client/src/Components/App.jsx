@@ -15,7 +15,7 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div>
+{/*        <div>
           <NavBar />
 	        <ul>
 	          <li>
@@ -35,7 +35,7 @@ class App extends Component {
           <Route name="home" exact path="/" component={HomePage} />
           <Route name="nav" exact path="/HeaderComponents/NavBar.jsx" component={NavBar} />
           <Route name="footer" exact path="/FooterComponents/Footer.jsx" component={Footer} />
-        </div>
+        </div>*/}
       </Router>
     );
   }
