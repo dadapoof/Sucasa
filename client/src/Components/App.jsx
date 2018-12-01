@@ -12,7 +12,7 @@ import Footer from './FooterComponents/Footer';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-AOS.init();
+// AOS.init();
 
 class App extends Component {
   render() {
