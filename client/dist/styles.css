@@ -30,17 +30,14 @@ header {
 
 .test {
   float: right;
-  width: 1000px;
+  width: 850px;
+  top: 0;
+  margin: 0;
 }
 
 .LogoButton {
   font-size: 30px;
 }
-
-/*.subnav_link:hover {
-  background-color: white;
-  color: rgba(0, 0, 0, 0.5);
-}*/
 
 .navButton {
   display: inline;
