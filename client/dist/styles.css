@@ -26,6 +26,13 @@ header {
   position: fixed;
   display: inline;
   font-size: 25px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 13px 15px;
+  width: 50px;
 }
 
 .test {
@@ -45,13 +52,6 @@ header {
 .navButton {
   top: 0;
   display: inline;
-  background-color: rgba(0, 0, 0, 0.6);
-  color: white;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 13px 15px;
-  width: 50px;
   margin-top: 0;
 }
 
