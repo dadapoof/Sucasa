@@ -12,13 +12,13 @@ class NavBar extends Component {
     <div>
       <header>
         <ul id="headerButtons">
-          <li className="LogoButton"><Link to="">SC</Link></li>
-          <li className="navButton"><Link to="">Home</Link></li>
-          <li className="navButton"><Link to="">What to Expect</Link></li>
-          <li className="navButton"><Link to="">Amenities</Link></li>
-          <li className="navButton"><Link to="">Around the area</Link></li>
-          <li className="navButton"><Link to="">Gallery</Link></li>
-          <li className="navButton"><Link to="">Contact</Link></li>
+          <li className="LogoButton"><Link to="" style={{ textDecoration: 'none', color: 'white' }}>SC</Link></li>
+          <li className="navButton"><Link to="" style={{ textDecoration: 'none', color: 'white' }}>Home</Link></li>
+          <li className="navButton"><Link to="" style={{ textDecoration: 'none', color: 'white' }}>What to Expect</Link></li>
+          <li className="navButton"><Link to="" style={{ textDecoration: 'none', color: 'white' }}>Amenities</Link></li>
+          <li className="navButton"><Link to="" style={{ textDecoration: 'none', color: 'white' }}>Around the area</Link></li>
+          <li className="navButton"><Link to="" style={{ textDecoration: 'none', color: 'white' }}>Gallery</Link></li>
+          <li className="navButton"><Link to="" style={{ textDecoration: 'none', color: 'white' }}>Contact</Link></li>
         </ul>
       </header>
       <h1 class="centered-text-image">SuCasa</h1>
