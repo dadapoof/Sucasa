@@ -24,7 +24,6 @@ header {
   list-style-type: none;
   padding: 0;
   position: fixed;
-  font-size: 18px;
   background-color: rgba(0, 0, 0, 0.6);
   color: white;
   border: none;
@@ -46,10 +45,11 @@ header {
 
 .LogoButton {
   width: 50px;
-  margin-right: 70px;
+  margin-right: 120px;
   left: 0;
   padding: 13px 15px;
   display: inline;
+  font-size: 20px;
 }
 
 .navButton {
@@ -58,6 +58,7 @@ header {
   margin-top: 0;
   width: 50px;
   padding: 13px 30px;
+  font-size: 13px;
 }
 
 .navButton:hover {
