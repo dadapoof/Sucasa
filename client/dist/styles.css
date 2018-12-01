@@ -32,6 +32,8 @@ header {
   cursor: pointer;
   padding: 13px 25px;
   display: inline;
+  width: 100%;
+  margin: 0px;
 }
 
 .test {
@@ -44,7 +46,7 @@ header {
 
 .LogoButton {
   width: 50px;
-  margin-right: 50px;
+  margin-right: 70px;
   left: 0;
   padding: 13px 15px;
   display: inline;
