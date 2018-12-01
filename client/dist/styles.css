@@ -38,8 +38,9 @@ header {
 
 .LogoButton {
   width: 50px;
-/*  float: left;
-*/}
+  margin: 0px;
+  left: 0;
+}
 
 .navButton {
   top: 0;
