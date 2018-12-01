@@ -14,11 +14,11 @@ class NavBar extends Component {
           <li className="navButton"><Link to="">Home</Link></li>
         </ul>
       </header>
+
       <div>
         <h1>Hello World</h1>
-    	<h2>This is Sucasa</h2>
       </div>
-    )
+    );
   }
 }
 export default NavBar;
