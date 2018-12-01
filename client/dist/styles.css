@@ -24,7 +24,8 @@ header {
   list-style-type: none;
   padding: 0;
   float: right;
-  position: fixed;
+/*  position: fixed;
+*/  display: inline;
 }
 
 .LogoButton {
@@ -33,7 +34,6 @@ header {
 }
 
 .navButton {
-  display: inline;
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
   border: none;
