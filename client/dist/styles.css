@@ -28,9 +28,10 @@ header {
   display: inline;
 }
 
-/*.test {
+.test {
   float: right;
-}*/
+  width: 180px;
+}
 
 .LogoButton {
   font-size: 30px;
