@@ -30,7 +30,7 @@ header {
 
 .test {
   float: right;
-  width: 850px;
+  width: 900px;
   top: 0;
   margin: 0;
 }
@@ -40,8 +40,9 @@ header {
 }
 
 .navButton {
-  display: inline;
-  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+/*  display: inline;
+*/  background-color: rgba(0, 0, 0, 0.5);
   color: white;
   border: none;
   outline: none;
@@ -53,8 +54,8 @@ header {
 }
 
 .navButton:hover {
-  background-color: white;
   color: rgba(0, 0, 0, 0.5);
+  background-color: white;
 }
 
 .centered-text-image {
