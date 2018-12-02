@@ -79,7 +79,7 @@ header {
 
 .navButton:hover {
   color: #000;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: white;
 }
 
 .link {
@@ -89,6 +89,7 @@ header {
 
 .link:hover {
   text-decoration: none;
+  color: #000;
 }
 
 .link:active {
