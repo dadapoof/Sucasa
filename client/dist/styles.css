@@ -40,6 +40,7 @@ header {
   top: 0;
   margin: 0;
   display: inline;
+  padding: 0px;
 }
 
 .LogoButton {
@@ -67,8 +68,9 @@ header {
 
 .navButton {
   top: 0;
+  height: 100%;
   display: inline;
-  margin-top: 0;
+  margin: 0;
   width: 50px;
   padding: 28px 30px;
   font-size: 14px;
