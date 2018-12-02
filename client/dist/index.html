@@ -12,17 +12,13 @@
     <div id="app"></div>
     	<script type="text/javascript" src="bundle.js"></script>
 	    <script>
-			var imagePos = $(this).offset().top;
-	        var imageHeight = $(this).height();
-	        var topOfWindow = $(window).scrollTop();
-    		if (imagePos < topOfWindow + imageHeight && imagePos + imageHeight > topOfWindow) {
-	            $(this).addClass("slideLeft");
-	        } else {
-	            $(this).removeClass("slideLeft");
-	        }
-
+	    	$(this).removeClass("slideLeft");
 			$(window).scroll(function() {
 				$('#left-animation').each(function(){
+			        var imagePos = $(this).offset().top;
+			        var imageHeight = $(this).height();
+			        var topOfWindow = $(window).scrollTop();
+
 			        if (imagePos < topOfWindow + imageHeight && imagePos + imageHeight > topOfWindow) {
 			            $(this).addClass("slideLeft");
 			        }

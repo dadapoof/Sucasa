@@ -29,7 +29,6 @@ header {
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 13px 15px;
   display: inline;
   width: 100%;
   margin: 0px;
@@ -47,7 +46,7 @@ header {
   width: 50px;
   margin-right: 40%;
   left: 0;
-  padding: 13px 15px;
+  padding: 17px 20px;
   display: inline;
   font-size: 20px;
 }
@@ -78,6 +77,10 @@ header {
 .navButton:hover {
   color: rgba(0, 0, 0, 0.6);
   background-color: white;
+}
+
+.navButton:hover Link {
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .subnav_link:hover {
