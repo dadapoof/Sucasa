@@ -14,12 +14,12 @@ class NavBar extends Component {
         <div class="test">
           <ul id="headerButtons">
           <li className="LogoButton"><Link to="" style={{ textDecoration: 'none', color: 'white' }}>SC</Link></li>
-          <li className="navButton"><Link to="" style={{ textDecoration: 'none', color: 'white' }} className="link">Home</Link></li>
-          <li className="navButton"><Link to="" style={{ textDecoration: 'none', color: 'white' }} className="link">What to Expect</Link></li>
-          <li className="navButton"><Link to="" style={{ textDecoration: 'none', color: 'white' }} className="link">Amenities</Link></li>
-          <li className="navButton"><Link to="" style={{ textDecoration: 'none', color: 'white' }} className="link">Around the Area</Link></li>
-          <li className="navButton"><Link to="" style={{ textDecoration: 'none', color: 'white' }} className="link">Gallery</Link></li>
-          <li className="navButton"><Link to="" style={{ textDecoration: 'none', color: 'white' }} className="link">Contact</Link></li>
+          <li className="navButton"><Link to="" className="link">Home</Link></li>
+          <li className="navButton"><Link to="" className="link">What to Expect</Link></li>
+          <li className="navButton"><Link to="" className="link">Amenities</Link></li>
+          <li className="navButton"><Link to="" className="link">Around the Area</Link></li>
+          <li className="navButton"><Link to="" className="link">Gallery</Link></li>
+          <li className="navButton"><Link to="" className="link">Contact</Link></li>
         </ul>
        </div>
       </header>

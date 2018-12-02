@@ -86,8 +86,13 @@ header {
   color: rgba(0, 0, 0, 0.6);
 }
 
+.link {
+   text-decoration: 'none';
+   color: #FFF;
+}
+
 .link:hover {
-    color: black;
+    color: #000;
 }
 
 .a:hover {
