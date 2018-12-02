@@ -11,13 +11,16 @@ class HomePage extends Component {
    	  <div class="container">
       <div class="details">
         <h1>What to Expect</h1>
-        
+
       </div>
       <div class="amenities">
       	<h1>Amenities</h1>
       </div>
       <div class="map">
       	<h1>What's Around the Area?</h1>
+      	<div id="map">
+      		
+      	</div>
       </div>
       <div class="photo-gallery">
       	<h1>Gallery</h1>
