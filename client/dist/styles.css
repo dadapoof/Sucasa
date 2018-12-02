@@ -59,7 +59,8 @@ header {
 /*  margin-top: 40%;
   margin-left: 75%;*/
   top: 65%;
-  left: 75%;
+  left: 80%;
+  padding: 30px 40px;
   font-size: 20px;
   position: absolute;
 }
