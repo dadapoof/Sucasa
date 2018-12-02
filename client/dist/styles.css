@@ -35,6 +35,11 @@ header {
   z-index: 1;
 }
 
+#map {
+  height: 400px;
+  width: 100%;
+}
+
 .test {
   float: right;
   width: 100%;
