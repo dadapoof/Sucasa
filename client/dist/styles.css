@@ -22,7 +22,7 @@ header {
 
 #headerButtons {
   list-style-type: none;
-  padding: 14px 0px;
+  padding: 18px 0px;
   position: fixed;
   background-color: rgba(0, 0, 0, 0.6);
   color: white;
@@ -101,6 +101,7 @@ header {
     -moz-animation: fadein 3s; /* Firefox */
     -webkit-animation: fadein 3s; /* Safari and Chrome */
     -o-animation: fadein 3s; /* Opera */
+    z-index: 0;
 }
 
 .centered-text-image-2 {
@@ -114,6 +115,7 @@ header {
     -moz-animation: fadein 3s; /* Firefox */
     -webkit-animation: fadein 3s; /* Safari and Chrome */
     -o-animation: fadein 3s; /* Opera */
+    z-index: 0;
 }
 
 @keyframes fadein {
