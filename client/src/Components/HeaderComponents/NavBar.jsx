@@ -16,7 +16,7 @@ class NavBar extends Component {
       <header>
         <div class="test">
           <ul id="headerButtons">
-          <li className="LogoButton"><Link to="" style={{ textDecoration: 'none', color: 'white' }} onClick=(hover) className="subnav_link">SC</Link></li>
+          <li className="LogoButton"><Link to="" style={{ textDecoration: 'none', color: 'white' }} onClick={this.hover} className="subnav_link">SC</Link></li>
           <li className="navButton"><Link to="" style={{ textDecoration: 'none', color: 'white' }} className="subnav_link">Home</Link></li>
           <li className="navButton"><Link to="" style={{ textDecoration: 'none', color: 'white' }} className="subnav_link">What to Expect</Link></li>
           <li className="navButton"><Link to="" style={{ textDecoration: 'none', color: 'white' }} className="subnav_link">Amenities</Link></li>
