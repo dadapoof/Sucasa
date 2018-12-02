@@ -22,10 +22,10 @@ class NavBar extends Component {
           <li className="navButton"><Link to="" style={{ textDecoration: 'none', color: 'white' }} className="subnav_link">Contact</Link></li>
         </ul>
        </div>
-       	<h2 id="left-animation" class="slideLeft">"Very classy apartment.<br />Hosts are delightful!"</h2>
       </header>
+      <h2 id="left-animation" class="slideLeft">"Very classy apartment.<br />Hosts are delightful!"</h2>
       <h1 class="centered-text-image">SuCasa</h1>
-      <h2 class="centered-text-iamge-2">2 Bedroom Flat in Hamilton Heights</h2>
+      <h2 class="centered-text-image-2">2 Bedroom Flat in Hamilton Heights</h2>
     </div>
     );
   }
