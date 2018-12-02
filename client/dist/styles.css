@@ -73,6 +73,8 @@ header {
   width: 50px;
   padding: 26px 30px;
   font-size: 14px;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .navButton:hover {
