@@ -14,13 +14,13 @@
 	    <script>
 			$(window).scroll(function() {
 				$('#left-animation').each(function(){
-					var imagePos = $(this).offset().top;
-					var topOfWindow = $(window).scrollTop();
-					console.log(imagePos);
-					console.log(topOfWindow);
-			        if (imagePos < topOfWindow+700) {
-						$(this).addClass("slideLeft");
-					} else {
+			        var imagePos = $(this).offset().top;
+			        var imageHeight = $(this).height();
+			        var topOfWindow = $(window).scrollTop();
+
+			        if (imagePos < topOfWindow + imageHeight && imagePos + imageHeight > topOfWindow) {
+			            $(this).addClass("slideLeft");
+			        } else {
 			            $(this).removeClass("slideLeft");
 			        }
 				});
