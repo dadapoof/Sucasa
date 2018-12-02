@@ -29,7 +29,6 @@ header {
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 13px 15px;
   display: inline;
   width: 100%;
   margin: 0px;
@@ -47,7 +46,7 @@ header {
   width: 50px;
   margin-right: 40%;
   left: 0;
-  padding: 13px 15px;
+  padding: 26px 30px;
   display: inline;
   font-size: 20px;
 }
@@ -71,7 +70,7 @@ header {
   display: inline;
   margin-top: 0;
   width: 50px;
-  padding: 13px 30px;
+  padding: 26px 30px;
   font-size: 14px;
 }
 
