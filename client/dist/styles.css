@@ -37,9 +37,9 @@ header {
 
 #map {
   height: 400px;
-  width: 350px;
+  width: 400px;
   float: right;
-  margin-right: 100px;
+  margin-right: 50px;
 }
 
 .test {
