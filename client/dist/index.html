@@ -12,20 +12,17 @@
     <div id="app"></div>
     	<script type="text/javascript" src="bundle.js"></script>
 	    <script>
-	    	$('#left-animation').css('visibility', 'hidden');
 			$(window).scroll(function() {
 				if ($(this).scrollTop() > 0) {
         			$('#left-animation').each(function(){
-			        if ($(window).scrollTop() > 200) {
-			            $(this).addClass("slideLeft");
-			        }
-			        else {
-			        	$(this).removeClass("slideLeft");
-			        }
-				});
+				        if ($(window).scrollTop() < 800) {
+				            $(this).addClass("slideLeft");
+				        } else {
+				        	$(this).removeClass("slideLeft");
+				        }
+					});
    				}
 			});
-			$('#left-animation').css('visibility', 'hidden');
 		</script>
   </body>
 </html>
