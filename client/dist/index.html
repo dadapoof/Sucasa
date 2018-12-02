@@ -12,54 +12,20 @@
     <div id="app"></div>
     	<script type="text/javascript" src="bundle.js"></script>
 	    <script>
-
-	    	var $animation_elements = $('#left-animation');
-			var $window = $(window);
-
-			function check_if_in_view() {
-			  var window_height = $window.height();
-			  var window_top_position = $window.scrollTop();
-			  var window_bottom_position = (window_top_position + window_height);
-			 
-			  $.each($animation_elements, function() {
-			    var $element = $(this);
-			    var element_height = $element.outerHeight();
-			    var element_top_position = $element.offset().top;
-			    var element_bottom_position = (element_top_position + element_height);
-			 
-			    //check to see if this current container is within viewport
-			    if ((element_bottom_position >= window_top_position) &&
-			        (element_top_position <= window_bottom_position)) {
-			      $element.addClass("slideLeft");
-			    } else {
-			      $element.removeClass("slideLeft");
-			    }
-			  });
-			}
-
-			$window.on('scroll resize', check_if_in_view);
-			$window.trigger('scroll');
-
-	  //   	var $animation_elements = $('#left-animation');
-	  //   	var $window = $(window);
-	  //   	$window.on('scroll', check_if_in_view);
-	  //   	$window.on('scroll resize', check_if_in_view);
-	  //   	$window.trigger('scroll');
-
-	  //   	function check_if_in_view() {}
-
-			// $(window).scroll(function() {
-			// 	$('#left-animation').each(function(){
-			//         var imagePos = $(this).offset().top;
-			//         var imageHeight = $(this).height();
-			//         var topOfWindow = $(window).scrollTop();
-
-			//         if (imagePos < topOfWindow + imageHeight && imagePos + imageHeight > topOfWindow) {
-			//             $(this).addClass("slideLeft");
-			//         }
-			// 	});
-			// });
-			// $('#left-animation').css('visibility', 'hidden');
+	    	$('#left-animation').css('visibility', 'hidden');
+			$(window).scroll(function() {
+				if ($(this).scrollTop() > 0) {
+        			$('#left-animation').each(function(){
+			        if ($(window).scrollTop() > 200) {
+			            $(this).addClass("slideLeft");
+			        }
+			        else {
+			        	$(this).removeClass("slideLeft");
+			        }
+				});
+   				}
+			});
+			$('#left-animation').css('visibility', 'hidden');
 		</script>
   </body>
 </html>

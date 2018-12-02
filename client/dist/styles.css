@@ -57,8 +57,6 @@ header {
   background-color: rgba(0, 0, 0, 0.4);
   color: white;
   visibility: hidden;
-/*  margin-top: 40%;
-  margin-left: 75%;*/
   top: 65%;
   left: 80%;
   padding: 40px 40px;
@@ -73,7 +71,7 @@ header {
   display: inline;
   margin: 0;
   width: 50px;
-  padding: 28px 30px;
+  padding: 26px 30px;
   font-size: 14px;
 }
 
