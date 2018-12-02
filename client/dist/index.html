@@ -16,6 +16,8 @@
 				$('#left-animation').each(function(){
 					var imagePos = $(this).offset().top;
 					var topOfWindow = $(window).scrollTop();
+					console.log(imagePos);
+					console.log(topOfWindow);
 			        if (imagePos < topOfWindow+4000) {
 						$(this).addClass("slideLeft");
 					} else {
