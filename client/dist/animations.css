@@ -200,6 +200,44 @@ slideLeft
 
 /*
 ==============================================
+slideBackLeft
+==============================================
+*/
+
+
+.slideBackLeft{
+	animation-name: slideBackLeft;
+	-webkit-animation-name: slideBackLeft;	
+
+	animation-duration: 3s;	
+	-webkit-animation-duration: 3s;
+
+	animation-timing-function: ease-in-out;	
+	-webkit-animation-timing-function: ease-in-out;		
+
+	visibility: visible !important;	
+}
+
+@keyframes slideBackLeft {
+	0% {
+		transform: translateX(0%);
+	}		
+	100% {
+		transform: translateX(0%);
+	}
+}
+
+@-webkit-keyframes slideBackLeft {
+	0% {
+		-webkit-transform: translateX(0%);
+	}
+	100% {
+		-webkit-transform: translateX(0%);
+	}
+}
+
+/*
+==============================================
 slideRight
 ==============================================
 */
